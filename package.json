@@ -1,0 +1,17 @@
+{
+  "name": "ascii-art-generator",
+  "version": "1.0.0",
+  "description": "Transform text into stunning ASCII art — CLI tool with multiple fonts and colors",
+  "main": "dist/index.js",
+  "bin": {
+    "ascii-art": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["ascii", "art", "cli", "typescript", "figlet", "terminal"],
+  "license": "MIT"
+}
